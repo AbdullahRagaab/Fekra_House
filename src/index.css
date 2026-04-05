@@ -1,0 +1,80 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Tajawal', ui-sans-serif, system-ui, sans-serif;
+  --color-coral: #F57167;
+  --color-coral-dark: #DD665D;
+  --color-mustard: #FFDE86;
+  --color-slate-brand: #3B6273;
+  --color-cream: #FAFAF7;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans, 'Tajawal', system-ui, sans-serif);
+  
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 45s linear infinite;
+}
+
+.animate-marquee-team {
+  animation: marquee 35s linear infinite;
+}
+
+/* .hero-word-enter {
+  animation: heroFade 0.55s ease-out both;
+} */
+
+
+.hero-word-enter {
+  position: relative;
+  display: inline-block;
+}
+
+.hero-word-enter::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px; /* قربه من الكلام */
+  width: 100%;
+  height: 20px;
+
+  border-top: 4px solid #f7c948; /* بدل border-bottom */
+  border-radius: 50%;
+}
+
+@keyframes heroFade {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+@layer base {
+  html {
+    font-size: 16px;
+  }
+  body {
+    @apply font-light;
+  }
+}
