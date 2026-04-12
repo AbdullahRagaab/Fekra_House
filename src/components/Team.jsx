@@ -33,7 +33,7 @@ export default function Team() {
   const loop = [...teamMembers, ...teamMembers]
 
   return (
-    <section id="team" className="bg-black py-16 md:py-24">
+    <section id="team" className="bg-white py-16 md:py-24">
       <div className="mx-auto max-w-7xl px-4 md:px-8">
         <h2 className="mb-12 text-center text-3xl font-black md:text-4xl">
           <span className="text-neutral-600">تعرف على </span>

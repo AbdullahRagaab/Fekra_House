@@ -42,7 +42,7 @@ export default function Clients() {
         className="flex h-16 shrink-0 items-center justify-center px-6 md:h-20"
       >
         <img
-          src={logo} // ✅ الصح
+          src={logo}
           alt=""
           className="h-10 object-contain grayscale opacity-70 transition-all duration-300 hover:scale-105 hover:grayscale-0 hover:opacity-100 md:h-12"
           loading="lazy"
