@@ -33,14 +33,16 @@ export default function Footer() {
     <footer className="bg-black py-14 text-white md:py-16">
       <div className="mx-auto flex max-w-4xl flex-col items-center px-4 text-center">
         <div className="flex flex-col items-center gap-2">
-          <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-white/10">
+          {/* <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-white/10">
             <svg viewBox="0 0 24 24" className="h-9 w-9 text-white" fill="currentColor" aria-hidden>
               <path d="M12 2L4 7v10l8 5 8-5V7l-8-5zm0 2.18l6 3.75v7.14l-6 3.75-6-3.75V7.93l6-3.75z" />
             </svg>
           </div>
           <span className="text-xl font-extrabold">بيت الفكرة</span>
           <span className="text-sm font-medium text-white/80">Fekra House</span>
-          <span className="text-xs text-white/50">Thinking Ideas House</span>
+          <span className="text-xs text-white/50">Thinking Ideas House</span> */}
+                                          <img src="../../public/Logo Horizontal Overlay Dark@2x 1.svg" alt="icon" className="w-30 h-15 hover:cursor-pointer" />
+
         </div>
 
         <div className="mt-10 flex gap-4">

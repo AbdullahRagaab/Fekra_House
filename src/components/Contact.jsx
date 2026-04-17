@@ -11,7 +11,7 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="relative overflow-hidden bg-[#f9fafb] py-16 md:py-24">
+    <section dir='ltr' id="contact" className="relative overflow-hidden bg-[#f9fafb] py-16 md:py-24">
       <div className="pointer-events-none absolute -right-16 -top-20 h-56 w-56 rounded-full bg-[#fde68a]/80" />
       <div className="pointer-events-none absolute left-8 top-12 h-24 w-24 rounded-full border-2 border-[#fbbf24]/60" />
       <div className="pointer-events-none absolute bottom-12 right-12 h-32 w-32 rounded-full border-2 border-neutral-400/40" />

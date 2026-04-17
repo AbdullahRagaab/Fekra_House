@@ -1,5 +1,10 @@
 /** بيانات المحتوى — سهل التوسعة */
 
+import ali from "../../public/members/ali.png";
+import sarah from "../../public/members/sarah.png";
+import karim from "../../public/members/karim.png";
+
+
 export const navLinks = [
   { id: 'home', label: 'الرئيسية' },
   { id: 'about', label: 'من نحن' },
@@ -53,37 +58,63 @@ export const heroWords = [
 //     as: 'url',
 //   })
 // );
-import ChatGPTImg from '../../public/Clients/ChatGPTImage.png'
-import img10 from '../../public/Clients/image10.png'
-import img11 from '../../public/Clients/image11.png'
-import img12 from '../../public/Clients/image12.png'
-import img14 from '../../public/Clients/image14.png'
-import img16 from '../../public/Clients/image16.png'
-import img17 from '../../public/Clients/image17.png'
-import img18 from '../../public/Clients/image18.png'
-import img19 from '../../public/Clients/image19.png'
-import img20 from '../../public/Clients/image20.png'
-import img21 from '../../public/Clients/image21.png'
-import img3 from '../../public/Clients/image3.png'
-import img4 from '../../public/Clients/image4.png'
-import img7 from '../../public/Clients/image7.png'
-import img8 from '../../public/Clients/image8.png'
-import img_13 from '../../public/Clients/image_13.png'
-import img_15 from '../../public/Clients/image_15.png'
-import img_2 from '../../public/Clients/image_2.png'
-import img_22 from '../../public/Clients/image_22.png'
-import img_5 from '../../public/Clients/image_5.png'
-import img_6 from '../../public/Clients/image_6.png'
+// import ChatGPTImg from '../../public/Clients/ChatGPTImage.png'
+// import img10 from '../../public/Clients/image10.png'
+// import img11 from '../../public/Clients/image11.png'
+// import img12 from '../../public/Clients/image12.png'
+// import img14 from '../../public/Clients/image14.png'
+// import img16 from '../../public/Clients/image16.png'
+// import img17 from '../../public/Clients/image17.png'
+// import img18 from '../../public/Clients/image18.png'
+// import img19 from '../../public/Clients/image19.png'
+// import img20 from '../../public/Clients/image20.png'
+// import img21 from '../../public/Clients/image21.png'
+// import img3 from '../../public/Clients/image3.png'
+// import img4 from '../../public/Clients/image4.png'
+// import img7 from '../../public/Clients/image7.png'
+// import img8 from '../../public/Clients/image8.png'
+// import img_13 from '../../public/Clients/image_13.png'
+// import img_15 from '../../public/Clients/image_15.png'
+// import img_2 from '../../public/Clients/image_2.png'
+// import img_22 from '../../public/Clients/image_22.png'
+// import img_5 from '../../public/Clients/image_5.png'
+// import img_6 from '../../public/Clients/image_6.png'
 
-// إصلاح المسارات بإزالة /src من البداية
-const fixPath = (path) => path.replace(/^\/src\//, '/')
+// // إصلاح المسارات بإزالة /src من البداية
+// const fixPath = (path) => path.replace(/^\/src\//, '/')
+
+// export const partners = [
+//   fixPath(ChatGPTImg), fixPath(img10), fixPath(img11), fixPath(img12), fixPath(img14), fixPath(img16), 
+//   fixPath(img17), fixPath(img18), fixPath(img19), fixPath(img20),
+//   fixPath(img21), fixPath(img3), fixPath(img4), fixPath(img7), fixPath(img8), 
+//   fixPath(img_13), fixPath(img_15), fixPath(img_2), fixPath(img_22), fixPath(img_5), fixPath(img_6)
+// ]
+
 
 export const partners = [
-  fixPath(ChatGPTImg), fixPath(img10), fixPath(img11), fixPath(img12), fixPath(img14), fixPath(img16), 
-  fixPath(img17), fixPath(img18), fixPath(img19), fixPath(img20),
-  fixPath(img21), fixPath(img3), fixPath(img4), fixPath(img7), fixPath(img8), 
-  fixPath(img_13), fixPath(img_15), fixPath(img_2), fixPath(img_22), fixPath(img_5), fixPath(img_6)
-]
+  "/Clients/ChatGPTImage.png",
+  "/Clients/image10.png",
+  "/Clients/image11.png",
+  "/Clients/image12.png",
+  "/Clients/image14.png",
+  "/Clients/image16.png",
+  "/Clients/image17.png",
+  "/Clients/image18.png",
+  "/Clients/image19.png",
+  "/Clients/image20.png",
+  "/Clients/image21.png",
+  "/Clients/image3.png",
+  "/Clients/image4.png",
+  "/Clients/image7.png",
+  "/Clients/image8.png",
+  "/Clients/image_13.png",
+  "/Clients/image_15.png",
+  "/Clients/image_2.png",
+  "/Clients/image_22.png",
+  "/Clients/image_5.png",
+  "/Clients/image_6.png",
+];
+
 
 export const innovationServices = [
   {
@@ -201,29 +232,29 @@ export const softwareServices = [
   },
 ]
 
+
+
 export const teamMembers = [
   {
-    name: 'على أحمد',
-    role: 'الرئيس التنفيذي',
-    bg: 'bg-[#fde68a]',
-    accent: 'bg-[#fbbf24]',
-    image:
-      'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=500&fit=crop&crop=face',
+    name: 'كريم عادل',
+    role: 'المدير التنفيذي للتكنولوجيا',
+    bg: 'bg-[#8b9474]',
+    accent: 'bg-[#f1665c]',
+    image: karim,
   },
   {
     name: 'سارة منصور',
     role: 'المدير المالي',
     bg: 'bg-[#f1665c]',
     accent: 'bg-[#fbbf24]',
-    image:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=500&fit=crop&crop=face',
+    image: sarah,
   },
   {
-    name: 'كريم عادل',
-    role: 'مدير التطوير',
-    bg: 'bg-[#8b9474]',
-    accent: 'bg-[#f1665c]',
-    image:
-      'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=500&fit=crop&crop=face',
+    name: 'على أحمد',
+    role: 'الرئيس التنفيذي',
+    bg: 'bg-[#fde68a]',
+    accent: 'bg-[#fbbf24]',
+        image: ali,
+
   },
 ]

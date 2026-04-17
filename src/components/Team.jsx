@@ -4,23 +4,24 @@ function TeamCard({ member }) {
   return (
     <article className="group relative w-[260px] shrink-0 px-2 sm:w-[280px]">
       <div
-        className={`relative overflow-hidden rounded-[2.5rem] ${member.bg} pb-14 pt-10 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl`}
+        className={`relative rounded-xl ${member.bg} pb-14 pt-10 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl`}
       >
         <div
-          className={`pointer-events-none absolute left-1/2 top-4 h-10 w-10 -translate-x-1/2 rounded-full ${member.accent} opacity-90`}
+          className={`pointer-events-none absolute left-1/2 top-4 h-10 w-10 -translate-x-1/2 rounded-xl ${member.accent} opacity-90`}
         />
-        <div className="pointer-events-none absolute right-4 top-1/2 h-4 w-4 rounded-full bg-white/90 opacity-80" />
+        <div className="pointer-events-none absolute right-4 top-1/2 h-4 w-4 rounded-xl bg-white/90 opacity-80" />
 
-        <div className="relative mx-auto flex h-[220px] w-[200px] items-end justify-center">
+        <div className="relative mx-auto flex h-[200px] w-full items-end justify-center overflow-visible">
           <img
             src={member.image}
             alt={member.name}
-            className="relative z-[1] max-h-[260px] w-auto object-contain grayscale transition-all duration-300 group-hover:grayscale-0"
+            // className="relative z-[1] max-h-[290px] w-auto object-contain grayscale transition-all duration-300 group-hover:grayscale-0"
+             className="relative z-10 max-h-[300px] w-auto object-contain -mt-16 grayscale transition-all duration-300 group-hover:grayscale-0"
             loading="lazy"
           />
         </div>
 
-        <div className="absolute bottom-0 left-0 right-0 rounded-b-[2rem] bg-[#3d5a6c] px-3 py-3 text-center">
+        <div className="absolute bottom-0 left-0 right-0 rounded-b-xl bg-[#3d5a6c] px-3 py-3 text-center">
           <span className="text-base font-bold text-white">{member.name}</span>
         </div>
       </div>
