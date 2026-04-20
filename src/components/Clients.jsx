@@ -19,7 +19,7 @@ img.loading = "eager";
 }, []);
 
   return (
-    <section className="bg-[#1e3a5f] py-16 md:py-20" aria-labelledby="clients-heading">
+    <section className="py-16 md:py-20" aria-labelledby="clients-heading">
       <div className="mx-auto max-w-7xl px-4 md:px-8">
 
                 <div className="hidden">
@@ -29,7 +29,7 @@ img.loading = "eager";
         </div>
 
 
-        <h2 id="clients-heading" className="mb-12 text-center text-xl font-bold text-neutral-200 md:text-2xl lg:text-3xl">
+        <h2 id="clients-heading" className="mb-12 text-center text-xl font-bold text-[#040303] md:text-2xl lg:text-3xl">
           نفخر بالعمل مع أكثر من{' '}
           <span className="text-[#ff6b6b]" dir="ltr">
             +20
@@ -56,7 +56,7 @@ img.loading = "eager";
         </div> */}
 
         <div className="relative overflow-hidden">
-  <div dir="ltr" className="flex animate-marquee  gap-12 md:gap-16">
+  <div dir="ltr" className="flex animate-marquee gap-12 md:gap-16">
     {row.map((logo, i) => (
 //       <div
 //         key={i}
