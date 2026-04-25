@@ -49,6 +49,10 @@ const map = {
 }
 
 export function ServiceIcon({ name, className }) {
+  if (typeof name === 'string' && (name.startsWith('/') || name.includes('.png') || name.includes('.svg') || name.includes('.jpg') || name.includes('.jpeg') || name.includes('.webp'))) {
+    return <img src={name} alt="" className={className} aria-hidden />
+  }
+
   const Cmp = map[name] || Brain
   return <Cmp className={className} aria-hidden />
 }

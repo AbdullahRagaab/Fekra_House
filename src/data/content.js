@@ -143,62 +143,62 @@ export const innovationServices = [
   {
     title: 'تدريب Design Thinking',
     desc: 'برامج تدريبية عملية تساعد فرق العمل على فهم المستخدم وتوليد حلول مبتكرة بمنهجية منظمة.',
-    icon: 'brain',
+    icon: '/ServicesIcons/brain 2.png',
   },
   {
     title: 'ورش الإبداع وتوليد الأفكار',
     desc: 'جلسات تفاعلية لتوليد أفكار جديدة، تحليل الفرص، وبناء مسارات تنفيذ واضحة.',
-    icon: 'sparkles',
+    icon: '/ServicesIcons/idea 2.png',
   },
   {
     title: 'برامج تطوير الألعاب الابتكارية',
     desc: 'تعلم مبادئ تصميم الألعاب والبرمجة الإبداعية لتحويل الأفكار إلى تجارب تفاعلية.',
-    icon: 'gamepad2',
+    icon: '/ServicesIcons/electronic-product 2.png',
   },
   {
     title: 'معسكرات وورش Ideation',
     desc: 'معسكرات مكثفة لصقل الفكرة، بناء النماذج الأولية، واختبارها مع المستخدمين.',
-    icon: 'clipboardList',
+    icon: '/ServicesIcons/note 2.png',
   },
   {
     title: 'ورش الـ Prototyping',
     desc: 'تحويل المفاهيم إلى نماذج قابلة للاختبار بسرعة باستخدام أدوات حديثة.',
-    icon: 'layoutTemplate',
+    icon: '/ServicesIcons/wireframe 2.png',
   },
   {
     title: 'بناء الهوية التجارية',
     desc: 'تعريف الرسالة والقيم والشخصية البصرية لتقديم صورة متسقة لعلامتك.',
-    icon: 'award',
+    icon: '/ServicesIcons/sketching 3.png',
   },
   {
     title: 'التسويق الرقمي',
     desc: 'استراتيجيات محتوى وحملات إعلانية وقياس أداء لزيادة الوصول والتحويل.',
-    icon: 'trendingUp',
+    icon: '/ServicesIcons/success 2.png',
   },
   {
     title: 'ورش عمل تفاعلية',
     desc: 'أنشطة جماعية لتعزيز التعاون، حل المشكلات، وتوليد حلول سريعة.',
-    icon: 'users',
+    icon: '/ServicesIcons/abstract-shape 2.png',
   },
   {
     title: 'الابتكار المؤسسي',
     desc: 'برامج لبناء ثقافة الابتكار داخل المؤسسات وربطها بأهداف الأعمال.',
-    icon: 'building2',
+    icon: '/ServicesIcons/consulting 2.png',
   },
   {
     title: 'الاستشارات الاستراتيجية',
     desc: 'دعم في رسم خارطة طريق للمنتجات والخدمات الرقمية والنمو.',
-    icon: 'compass',
+    icon: '/ServicesIcons/idea (1) 3.png',
   },
   {
     title: 'تصميم تجربة العملاء',
     desc: 'رحلات مستخدم واضحة وقياس رضا لتحسين التفاعل مع علامتك.',
-    icon: 'smile',
+    icon: '/ServicesIcons/idea (2) 2.png',
   },
   {
     title: 'برامج ريادة الأعمال',
     desc: 'توجيه رواد الأعمال من الفكرة إلى نموذج العمل والتمويل.',
-    icon: 'rocket',
+    icon: '/ServicesIcons/electronic-product 2.png',
   },
 ]
 
@@ -206,52 +206,52 @@ export const softwareServices = [
   {
     title: 'تطوير الأنظمة ولوحات التحكم',
     desc: 'أنظمة إدارة داخلية ولوحات تحكم لمتابعة العمليات والمؤشرات في الوقت الفعلي.',
-    icon: 'monitor',
+    icon: '/ServicesIcons/analysis 2.png',
   },
   {
     title: 'تطوير تطبيقات الموبايل',
     desc: 'تطبيقات iOS و Android بأداء عالٍ وتجربة استخدام متناسقة مع علامتك.',
-    icon: 'smartphone',
+    icon: '/ServicesIcons/app-development 2.png',
   },
   {
     title: 'التصميم الجرافيكي والهوية البصرية',
     desc: 'شعارات، أدلة هوية، ومواد تسويقية تعكس احترافية نشاطك.',
-    icon: 'palette',
+    icon: '/ServicesIcons/development 2.png',
   },
   {
     title: 'تطوير المواقع الإلكترونية',
     desc: 'مواقع تعريفية وتجارة إلكترونية سريعة وآمنة ومتوافقة مع محركات البحث.',
-    icon: 'globe',
+    icon: '/ServicesIcons/online-shop 2.png',
   },
   {
     title: 'تصميم واجهات وتجربة المستخدم UI/UX',
     desc: 'بحث مستخدم، وايرفريم، وتصاميم واجهات سهلة وجذابة.',
-    icon: 'layers',
+    icon: '/ServicesIcons/wireframe 2.png',
   },
   {
     title: 'تحليل البيانات والأداء',
     desc: 'لوحات بيانات وتقارير لدعم القرار بناءً على مؤشرات واضحة.',
-    icon: 'barChart3',
+    icon: '/ServicesIcons/statistics 2.png',
   },
   {
     title: 'تطوير حلول الذكاء الاصطناعي',
     desc: 'دمج نماذج ذكاء اصطناعي في منتجاتك لأتمتة المهام وتحسين التجربة.',
-    icon: 'cpu',
+    icon: '/ServicesIcons/memory 2.png',
   },
   {
     title: 'برمجة الأنظمة السحابية',
     desc: 'بنية سحابية قابلة للتوسع، نشر آمن، ومراقبة مستمرة.',
-    icon: 'cloud',
+    icon: '/ServicesIcons/technical-support 2.png',
   },
   {
     title: 'إدارة المشاريع البرمجية',
     desc: 'تخطيط، تتبع، وتسليم مشاريع تقنية وفق أفضل الممارسات.',
-    icon: 'kanban',
+    icon: '/ServicesIcons/data 2.png',
   },
   {
     title: 'إنتاج الفيديو والمحتوى المرئي',
     desc: 'فيديوهات تعريفية وموشن جرافيك لدعم حملاتك الرقمية.',
-    icon: 'video',
+    icon: '/ServicesIcons/abstract-shape 2.png',
   },
 ]
 
