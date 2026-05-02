@@ -14,7 +14,7 @@ export default function Button({
     outline:
       'border-2 border-[#ef6b5b] bg-white text-[#ef6b5b] hover:bg-[#ef6b5b]/5 hover:-translate-y-0.5 focus-visible:outline-[#ef6b5b]',
     ghost: 'bg-transparent text-neutral-700 hover:bg-neutral-100',
-    dark: 'rounded-full border border-neutral-800 bg-white text-neutral-900 hover:shadow-xl',
+    dark: 'rounded-full border bg-white text-xl font-light  text-[#040303] border border-[#F57167] hover:bg-[#F57167] hover:text-white hover:cursor-pointer',
   }
 
   return (

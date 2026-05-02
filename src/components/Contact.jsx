@@ -19,23 +19,23 @@ export default function Contact() {
       <div className="relative mx-auto max-w-6xl px-4 md:px-8">
         <div className="overflow-hidden rounded-3xl bg-white shadow-xl">
           <div className="grid gap-0 lg:grid-cols-12">
-            <div className="bg-[#f87171] p-8 text-white md:p-10 lg:col-span-5 lg:rounded-s-3xl">
-              <h2 className="text-2xl font-black md:text-3xl">تواصل معنا</h2>
+            <div className="bg-[#F57167] p-8 text-white md:p-10 lg:col-span-5 lg:rounded-s-3xl">
+              <h2 className="text-right text-2xl font-medium text-[#FAFAF7] md:text-3xl">تواصل معنا</h2>
               <ul className="mt-10 space-y-8 text-right">
                 <li className="flex items-start justify-end gap-4">
                   <div>
-                    <p className="font-semibold leading-relaxed">26 يوليو الشيخ زايد بالجيزة</p>
+                    <p className="font-light text-lg leading-relaxed">26 يوليو الشيخ زايد بالجيزة</p>
                   </div>
                   <MapPin className="mt-1 h-6 w-6 shrink-0 opacity-95" aria-hidden />
                 </li>
                 <li className="flex items-start justify-end gap-4">
-                  <a href="mailto:Support@FekraHouse.com" className="font-semibold hover:underline">
+                  <a href="mailto:Support@FekraHouse.com" className="font-light text-lg hover:underline">
                     Support@FekraHouse.com
                   </a>
                   <Mail className="mt-1 h-6 w-6 shrink-0 opacity-95" aria-hidden />
                 </li>
                 <li className="flex items-start justify-end gap-4">
-                  <a href="tel:+201053796553" className="font-semibold hover:underline" dir="ltr">
+                  <a href="tel:+201053796553" className="font-light text-lg hover:underline" dir="ltr">
                     +201053796553
                   </a>
                   <Phone className="mt-1 h-6 w-6 shrink-0 opacity-95" aria-hidden />
@@ -43,9 +43,9 @@ export default function Contact() {
               </ul>
             </div>
 
-            <div className="p-8 md:p-10 lg:col-span-7">
-              <h3 className="text-right text-2xl font-black text-neutral-900 md:text-3xl">حول أفكارك إلى واقع</h3>
-              <p className="mt-3 text-right text-neutral-600">
+            <div className="py-10 px-35 lg:col-span-7">
+              <h3 className="text-right text-2xl font-medium text-[#040303] md:text-3xl">حول أفكارك إلى واقع</h3>
+              <p className="mt-3 text-right text-[#828181] md:text-xl ">
                 تواصل مع فريق الخبراء لتطوير مشروعك ووضع خطة واضحة
               </p>
 
@@ -58,9 +58,9 @@ export default function Contact() {
                       type="tel"
                       required
                       placeholder="رقم الهاتف"
-                      className="w-full rounded-xl bg-[#e5e7eb] px-4 py-3.5 pe-12 text-neutral-900 placeholder:text-neutral-500 focus:outline-none focus:ring-2 focus:ring-[#f87171]"
+                      dir="rtl"
+                      className="w-full rounded-xl bg-[#e5e7eb] px-4 py-3.5 pe-12 text-right text-neutral-900 placeholder:text-right placeholder:text-neutral-500 focus:outline-none focus:ring-2 focus:ring-[#f87171]"
                     />
-                    <Phone className="pointer-events-none absolute end-3 h-5 w-5 text-neutral-500" aria-hidden />
                   </span>
                 </label>
                 <label className="block">
@@ -70,7 +70,8 @@ export default function Contact() {
                     type="text"
                     required
                     placeholder="الاسم بالكامل"
-                    className="w-full rounded-xl bg-[#e5e7eb] px-4 py-3.5 text-neutral-900 placeholder:text-neutral-500 focus:outline-none focus:ring-2 focus:ring-[#f87171]"
+                    dir="rtl"
+                    className="w-full rounded-xl bg-[#e5e7eb] px-4 py-3.5 text-right text-neutral-900 placeholder:text-right placeholder:text-neutral-500 focus:outline-none focus:ring-2 focus:ring-[#f87171]"
                   />
                 </label>
                 <label className="block">
@@ -80,13 +81,14 @@ export default function Contact() {
                     required
                     rows={5}
                     placeholder="اكتب رسالتك هنا"
-                    className="w-full resize-y rounded-xl bg-[#e5e7eb] px-4 py-3.5 text-neutral-900 placeholder:text-neutral-500 focus:outline-none focus:ring-2 focus:ring-[#f87171]"
+                    dir="rtl"
+                    className="w-full resize-y rounded-xl bg-[#e5e7eb] px-4 py-3.5 text-right text-neutral-900 placeholder:text-right placeholder:text-neutral-500 focus:outline-none focus:ring-2 focus:ring-[#f87171]"
                   />
                 </label>
                 <div className="flex justify-end pt-2">
                   <button
                     type="submit"
-                    className="rounded-xl bg-[#f87171] px-8 py-3.5 text-sm font-bold text-white shadow-md transition-all hover:bg-red-500 hover:shadow-lg"
+                    className="rounded-xl bg-[#F57167] px-8 py-3.5 text-sm font-bold text-white shadow-md transition-all hover:bg-red-500 hover:shadow-lg"
                   >
                     {sent ? 'تم الإرسال — شكراً لك' : 'تواصل معنا'}
                   </button>

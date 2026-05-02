@@ -1,215 +1,70 @@
-// import { Check } from 'lucide-react'
-
-// export default function About() {
-//   return (
-//     <section id="about" className="bg-[#ffffff] py-16 md:py-24">
-//       <div className="mx-auto max-w-7xl px-4 md:px-8">
-//         <div className="flex flex-col gap-10 lg:flex-row-reverse lg:items-stretch lg:gap-0">
-//           <div className="relative flex-1 lg:w-1/2">
-//             <div className="pointer-events-none absolute -left-8 top-1/4 h-40 w-40 rounded-full border border-white/10" />
-//             <div className="relative z-10 lg:-ml-8 lg:mt-8 lg:pb-8">
-//               <img
-//                 src="../../public/aboutImage.svg"
-//                 alt="فريق العمل في بيت الفكرة"
-//                 className="mx-auto w-3/4 max-w-lg rounded-[2.5rem] object-cover shadow-2xl lg:max-w-none"
-//                 loading="lazy"
-//               />
-//             </div>
-//             <div className="pointer-events-none absolute bottom-8 right-4 hidden h-24 w-24 rotate-12 rounded-3xl border border-white/10 lg:block" />
-//           </div>
-
-//           <div className="relative flex-2 overflow-hidden rounded-3xl bg-[#e57368] p-8 shadow-xl md:p-12 lg:w-1/2 lg:rounded-l-none lg:rounded-r-[2.5rem]">
-//             <div className="pointer-events-none absolute left-6 top-6 h-16 w-16 rounded-full border border-white/25" />
-//             <div className="pointer-events-none absolute bottom-8 right-10 h-20 w-20 rotate-6 rounded-2xl border border-white/20" />
-
-//             <h2 className="text-4xl font-black md:text-5xl">
-//               <span className="text-[#fde68a]">من</span>{' '}
-//               <span className="text-white">نحن</span>
-//             </h2>
-//             <p className="mt-8 text-lg leading-relaxed text-white/95">
-//               شركة متخصصة تساعد الشركات ورواد الأعمال على تحويل أفكارهم إلى حلول رقمية ناجحة من خلال:
-//             </p>
-//             <ul className="mt-10 space-y-5">
-//               {['تطوير الحلول البرمجية', 'دعم الابتكار'].map((item) => (
-//                 <li key={item} className="flex items-center justify-end gap-4 text-right text-lg font-semibold text-white">
-//                   <span>{item}</span>
-//                   <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white/15 ring-2 ring-white/30">
-//                     <Check className="h-5 w-5 text-white" strokeWidth={3} />
-//                   </span>
-//                 </li>
-//               ))}
-//             </ul>
-//           </div>
-//         </div>
-//       </div>
-//     </section>
-//   )
-// }
-
-
-// import { Check } from 'lucide-react'
-
-// export default function About() {
-//   return (
-//     <section id="about" className="bg-[#ffffff] py-16 md:py-24">
-//       <div className="mx-auto max-w-7xl px-4 md:px-8">
-//         {/* force ltr عشان الـ RTL في المشروع مش يعكس الترتيب */}
-//         <div className="relative flex flex-row items-stretch rounded-3xl" style={{ direction: 'ltr' }}>
-
-//           {/* الصورة على الشمال */}
-//           <div className="relative z-10 w-1/4  shrink-0">
-//             <img
-//               src="../../public/aboutImage.svg"
-//               alt="فريق العمل في بيت الفكرة"
-//               className="h-full w-full rounded-3xl object-cover shadow-2xl"
-//               loading="lazy"
-//             />
-//           </div>
-
-//           {/* الكارت الأحمر على اليمين يتداخل مع الصورة */}
-//           <div className="relative -ml-10 flex flex-1 flex-col justify-center overflow-hidden rounded-3xl bg-[#e57368] p-10 shadow-xl md:p-14" style={{ direction: 'rtl' }}>
-//             {/* الدوائر الزخرفية */}
-//             <div className="pointer-events-none absolute left-16 top-8 h-20 w-20 rounded-full border-2 border-white/30" />
-//             <div className="pointer-events-none absolute bottom-8 right-10 h-14 w-14 rotate-12 rounded-xl border-2 border-white/25" />
-
-//             <h2 className="text-right text-4xl font-black md:text-5xl">
-//               <span className="text-white">من </span>
-//               <span className="text-[#fde68a]">نحن</span>
-//             </h2>
-//             <p className="mt-6 text-right text-lg leading-relaxed text-white/95">
-//               شركة متخصصة تساعد الشركات ورواد الأعمال على تحويل أفكارهم إلى حلول رقمية ناجحة من خلال:
-//             </p>
-//             <ul className="mt-8 space-y-5">
-//               {['تطوير الحلول البرمجية', 'دعم الابتكار'].map((item) => (
-//                 <li key={item} className="flex items-center justify-end gap-4 text-right text-lg font-semibold text-white">
-//                   <span>{item}</span>
-//                   <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border-2 border-white/40 bg-white/10">
-//                     <Check className="h-4 w-4 text-white" strokeWidth={3} />
-//                   </span>
-//                 </li>
-//               ))}
-//             </ul>
-//           </div>
-
-//         </div>
-//       </div>
-//     </section>
-//   )
-// }
-
-
-
-
-// import { Check } from 'lucide-react'
-
-// export default function About() {
-//   return (
-//     <section id="about" className="bg-[#ffffff] pb-16 pt-32 md:pb-24">
-//       <div className="mx-auto max-w-7xl px-4 md:px-8">
-//         <div className="relative flex flex-row items-end rounded-3xl" style={{ direction: 'ltr' }}>
-
-//           <div className="relative z-10 w-2/5 shrink-0 -mb-10 -mt-10">
-//             <img
-//               src="../../public/aboutImage.svg"
-//               alt="فريق العمل في بيت الفكرة"
-//               className="h-full w-full rounded-3xl object-cover shadow-2xl"
-//               loading="lazy"
-//             />
-//           </div>
-
-//           <div
-//             className="relative -ml-10 flex flex-1 flex-col justify-center overflow-hidden rounded-3xl bg-[#e57368] p-10 shadow-xl md:p-14"
-//             style={{ direction: 'rtl', minHeight: '420px' }}
-//           >
-//             <div className="pointer-events-none absolute left-16 top-8 h-20 w-20 rounded-full border-2 border-white/30" />
-//             <div className="pointer-events-none absolute bottom-8 right-10 h-14 w-14 rotate-12 rounded-xl border-2 border-white/25" />
-
-//             <h2 className="text-right text-4xl font-black md:text-5xl">
-//               <span className="text-white">من </span>
-//               <span className="text-[#fde68a]">نحن</span>
-//             </h2>
-//             <p className="mt-6 text-right text-lg leading-relaxed text-white/95">
-//               شركة متخصصة تساعد الشركات ورواد الأعمال على تحويل أفكارهم إلى حلول رقمية ناجحة من خلال:
-//             </p>
-//             <ul className="mt-8 space-y-5">
-//               {['تطوير الحلول البرمجية', 'دعم الابتكار'].map((item) => (
-//                 <li key={item} className="flex items-center justify-end gap-4 text-right text-lg font-semibold text-white">
-//                   <span>{item}</span>
-//                   <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border-2 border-white/40 bg-white/10">
-//                     <Check className="h-4 w-4 text-white" strokeWidth={3} />
-//                   </span>
-//                 </li>
-//               ))}
-//             </ul>
-//           </div>
-
-//         </div>
-//       </div>
-//     </section>
-//   )
-// }
-
-
-
-
-
-
-
-
 import { Check } from "lucide-react";
 
 export default function About() {
   return (
-    <section className="bg-white py-20">
+    <section id="about" className="overflow-visible bg-white py-16 md:py-24">
       <div className="relative mx-auto max-w-7xl px-4">
-
-        {/* 🔴 الكارد الأحمر */}
-        <div className="relative rounded-[2.5rem] bg-[#de6b5f] px-8 py-16 md:px-16 overflow-visible">
-
-          {/* Shapes */}
-          <div className="absolute left-10 top-10 h-20 w-20 rounded-full border border-white/30" />
-          <div className="absolute bottom-10 right-10 h-24 w-24 rounded-2xl border border-white/20 rotate-12" />
-          <div className="absolute right-20 bottom-6 w-0 h-0 border-l-[40px] border-l-transparent border-t-[60px] border-t-[#f59e0b]/60 border-r-[40px] border-r-transparent opacity-70" />
-
-          {/* 🖼️ الصورة */}
-          <div className="absolute left-10 -top-16 md:-top-10 w-[280px] md:w-[340px] lg:w-[400px]">
+        <div
+          dir="ltr"
+          className="grid grid-cols-1 items-center gap-10 lg:grid-cols-12 lg:gap-x-0 lg:gap-y-0"
+        >
+          <div className="flex justify-center lg:col-span-5 lg:col-start-1 lg:row-start-1 lg:z-20 lg:justify-end">
             <img
-                            src="../../public/aboutImage.svg"
+              src="/aboutImage.svg"
               alt="فريق العمل في بيت الفكرة"
-              className="h-[420px] md:h-[500px] w-full object-cover rounded-[2rem] shadow-2xl"
+              className="h-[360px] w-full max-w-[280px] rounded-[2rem] object-cover shadow-2xl sm:h-[400px] sm:max-w-[300px] md:h-[440px] md:max-w-[320px] lg:h-[500px] lg:max-w-[360px] xl:h-[520px] xl:max-w-[400px]"
             />
           </div>
 
-          {/* المحتوى */}
-          <div className="ml-auto max-w-xl text-right">
+          <div className="relative min-w-0 overflow-hidden rounded-[2.5rem] bg-[#de6b5f] px-8 py-12 md:px-12 md:py-14 lg:col-span-12 lg:col-start-1 lg:row-start-1 lg:z-10 lg:py-16 lg:pl-0 lg:pr-10 xl:pr-14">
+            <div className="pointer-events-none absolute top-10 h-20 w-20 rounded-full border border-white/30 max-lg:left-10 lg:left-[calc(100%*5/12+0.75rem)]" />
+            <div className="pointer-events-none absolute bottom-10 left-10 h-24 w-24 rotate-12 rounded-2xl border border-white/20" />
+            <svg
+              className="pointer-events-none absolute bottom-2 right-20 origin-center rotate-[90deg] h-[56px] w-[72px] text-[#f59e0b]/60 opacity-70"
+              viewBox="0 0 72 56"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden
+            >
+              <path
+                d="M36 52 66 10H6L36 52z"
+                stroke="currentColor"
+                strokeWidth={3}
+                strokeLinejoin="round"
+              />
+            </svg>
 
-            <h2 className="text-4xl md:text-5xl font-black">
-              <span className="text-[#fde68a]">من</span>{" "}
-              <span className="text-white">نحن</span>
-            </h2>
+            <div
+              dir="rtl"
+              className="relative z-10 text-right lg:pl-[calc(100%*7/12+1.5rem)]"
+            >
+              <h2 className="text-4xl font-semibold md:text-5xl">
+                <span className="text-[#FAFAF7]">من</span>{" "}
+                <span className="text-[#FFDE86]">نحن</span>
+              </h2>
 
-            <p className="mt-8 text-lg leading-relaxed text-white/90">
-              شركة متخصصة تساعد الشركات ورواد الأعمال على تحويل أفكارهم إلى
-              حلول رقمية ناجحة من خلال:
-            </p>
+              <p className="mt-8 text-xl leading-relaxed text-[#FAFAF7]">
+                شركة متخصصة تساعد الشركات ورواد الأعمال على تحويل أفكارهم إلى
+                حلول رقمية ناجحة من خلال:
+              </p>
 
-            <ul className="mt-10 space-y-6">
-              {["تطوير الحلول البرمجية", "دعم الابتكار"].map((item) => (
-                <li
-                  key={item}
-                  className="flex items-center justify-end gap-4 text-white text-lg font-semibold"
-                >
-                  <span>{item}</span>
+              <ul className="mt-10 flex w-full flex-col items-start gap-6">
+                {["تطوير الحلول البرمجية", "دعم الابتكار"].map((item) => (
+                  <li
+                    key={item}
+                    className="flex items-center justify-start gap-4 text-xl font-light text-[#FAFAF7]"
+                  >
+                    <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full border-2 border-[#fde68a]">
+                      <Check className="h-5 w-5 text-[#fde68a]" />
+                    </span>
 
-                  <span className="flex h-10 w-10 items-center justify-center rounded-full border-2 border-[#fde68a]">
-                    <Check className="h-5 w-5 text-[#fde68a]" />
-                  </span>
-                </li>
-              ))}
-            </ul>
+                    <span className="min-w-0 text-right">{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
-
       </div>
     </section>
   );

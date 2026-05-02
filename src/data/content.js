@@ -1,5 +1,3 @@
-/** بيانات المحتوى — سهل التوسعة */
-
 import ali from "../../public/members/ali.png";
 import sarah from "../../public/members/sarah.png";
 import karim from "../../public/members/karim.png";
@@ -25,95 +23,6 @@ export const heroWords = [
   { text: 'احترافية', className: 'text-[#b45309]' },
 ]
 
-// export const partners = [
-//   '../assets/Clients/ChatGPT Image Mar 26, 2026, 01_55_25 AM 1.png',
-//   '../assets/Clients/image 3.png',
-//   '../assets/Clients/image 4.png',
-//   '../assets/Clients/image 7.png',
-//   '../assets/Clients/image 8.png',
-//   '../assets/Clients/image 10.png',
-//   '../assets/Clients/image 11.png',
-//   '../assets/Clients/image 12.png',
-//   '../assets/Clients/image 14.png',
-//   '../assets/Clients/image 16.png',
-//   '../assets/Clients/image 17.png',
-//   '../assets/Clients/image 18.png',
-//   '../assets/Clients/image 19.png',
-//   '../assets/Clients/image 20.png',
-//   '../assets/Clients/image 21.png',
-//   '../assets/Clients/image_2-removebg-preview 1.png',
-//   '../assets/Clients/image_13-removebg-preview 1.png',
-//   '../assets/Clients/image_15-removebg-preview 1.png',
-//   '../assets/Clients/image_22-1-removebg-preview 1.png',
-//   '../assets/Clients/image_22-2-removebg-preview 1.png',
-//   '../assets/Clients/image_22-removebg-preview 1.png',
-
-// ]
-
-// data/content.js
-
-// export const partners = Object.values(
-//   import.meta.glob('../assets/Clients/*.{png,jpg,jpeg,svg}', {
-//     eager: true,
-//     as: 'url',
-//   })
-// );
-// import ChatGPTImg from '../../public/Clients/ChatGPTImage.png'
-// import img10 from '../../public/Clients/image10.png'
-// import img11 from '../../public/Clients/image11.png'
-// import img12 from '../../public/Clients/image12.png'
-// import img14 from '../../public/Clients/image14.png'
-// import img16 from '../../public/Clients/image16.png'
-// import img17 from '../../public/Clients/image17.png'
-// import img18 from '../../public/Clients/image18.png'
-// import img19 from '../../public/Clients/image19.png'
-// import img20 from '../../public/Clients/image20.png'
-// import img21 from '../../public/Clients/image21.png'
-// import img3 from '../../public/Clients/image3.png'
-// import img4 from '../../public/Clients/image4.png'
-// import img7 from '../../public/Clients/image7.png'
-// import img8 from '../../public/Clients/image8.png'
-// import img_13 from '../../public/Clients/image_13.png'
-// import img_15 from '../../public/Clients/image_15.png'
-// import img_2 from '../../public/Clients/image_2.png'
-// import img_22 from '../../public/Clients/image_22.png'
-// import img_5 from '../../public/Clients/image_5.png'
-// import img_6 from '../../public/Clients/image_6.png'
-
-// // إصلاح المسارات بإزالة /src من البداية
-// const fixPath = (path) => path.replace(/^\/src\//, '/')
-
-// export const partners = [
-//   fixPath(ChatGPTImg), fixPath(img10), fixPath(img11), fixPath(img12), fixPath(img14), fixPath(img16), 
-//   fixPath(img17), fixPath(img18), fixPath(img19), fixPath(img20),
-//   fixPath(img21), fixPath(img3), fixPath(img4), fixPath(img7), fixPath(img8), 
-//   fixPath(img_13), fixPath(img_15), fixPath(img_2), fixPath(img_22), fixPath(img_5), fixPath(img_6)
-// ]
-
-
-// export const partners = [
-//   "/Clients/ChatGPTImage.png",
-//   "/Clients/image10.png",
-//   "/Clients/image11.png",
-//   "/Clients/image12.png",
-//   "/Clients/image14.png",
-//   "/Clients/image16.png",
-//   "/Clients/image17.png",
-//   "/Clients/image18.png",
-//   "/Clients/image19.png",
-//   "/Clients/image20.png",
-//   "/Clients/image21.png",
-//   "/Clients/image3.png",
-//   "/Clients/image4.png",
-//   "/Clients/image7.png",
-//   "/Clients/image8.png",
-//   "/Clients/image_13.png",
-//   "/Clients/image_15.png",
-//   "/Clients/image_2.png",
-//   "/Clients/image_22.png",
-//   "/Clients/image_5.png",
-//   "/Clients/image_6.png",
-// ];
 export const partners = [
   '/Clientss/image 3.png',
   '/Clientss/image 4.png',
@@ -141,117 +50,104 @@ export const partners = [
 
 export const innovationServices = [
   {
-    title: 'تدريب Design Thinking',
-    desc: 'برامج تدريبية عملية تساعد فرق العمل على فهم المستخدم وتوليد حلول مبتكرة بمنهجية منظمة.',
-    icon: '/ServicesIcons/brain 2.png',
-  },
-  {
     title: 'ورش الإبداع وتوليد الأفكار',
-    desc: 'جلسات تفاعلية لتوليد أفكار جديدة، تحليل الفرص، وبناء مسارات تنفيذ واضحة.',
-    icon: '/ServicesIcons/idea 2.png',
-  },
-  {
-    title: 'برامج تطوير الألعاب الابتكارية',
-    desc: 'تعلم مبادئ تصميم الألعاب والبرمجة الإبداعية لتحويل الأفكار إلى تجارب تفاعلية.',
-    icon: '/ServicesIcons/electronic-product 2.png',
-  },
-  {
-    title: 'معسكرات وورش Ideation',
-    desc: 'معسكرات مكثفة لصقل الفكرة، بناء النماذج الأولية، واختبارها مع المستخدمين.',
-    icon: '/ServicesIcons/note 2.png',
-  },
-  {
-    title: 'ورش الـ Prototyping',
-    desc: 'تحويل المفاهيم إلى نماذج قابلة للاختبار بسرعة باستخدام أدوات حديثة.',
-    icon: '/ServicesIcons/wireframe 2.png',
-  },
-  {
-    title: 'بناء الهوية التجارية',
-    desc: 'تعريف الرسالة والقيم والشخصية البصرية لتقديم صورة متسقة لعلامتك.',
-    icon: '/ServicesIcons/sketching 3.png',
-  },
-  {
-    title: 'التسويق الرقمي',
-    desc: 'استراتيجيات محتوى وحملات إعلانية وقياس أداء لزيادة الوصول والتحويل.',
-    icon: '/ServicesIcons/success 2.png',
-  },
-  {
-    title: 'ورش عمل تفاعلية',
-    desc: 'أنشطة جماعية لتعزيز التعاون، حل المشكلات، وتوليد حلول سريعة.',
-    icon: '/ServicesIcons/abstract-shape 2.png',
-  },
-  {
-    title: 'الابتكار المؤسسي',
-    desc: 'برامج لبناء ثقافة الابتكار داخل المؤسسات وربطها بأهداف الأعمال.',
-    icon: '/ServicesIcons/consulting 2.png',
-  },
-  {
-    title: 'الاستشارات الاستراتيجية',
-    desc: 'دعم في رسم خارطة طريق للمنتجات والخدمات الرقمية والنمو.',
+    desc: 'نساعد الأفراد والفرق على توليد أفكار جديدة وتطويرها بشكل منهجي من خلال ورش تدريبية متخصصة تعتمد على التفكير الإبداعي وأساليب الابتكار الحديثة، بما يساهم في تحويل الأفكار الأولية إلى فرص قابلة للتطوير.',
     icon: '/ServicesIcons/idea (1) 3.png',
   },
   {
-    title: 'تصميم تجربة العملاء',
-    desc: 'رحلات مستخدم واضحة وقياس رضا لتحسين التفاعل مع علامتك.',
+    title: 'تدريب Design Thinking',
+    desc: 'نقدم برامج تدريبية في Design Thinking لمساعدة المشاركين على فهم المشكلات بشكل أعمق، والاعتماد على احتياجات المستخدم، وتوليد حلول عملية من خلال مراحل التعاطف، تعريف المشكلة، توليد الأفكار، النمذجة، والاختبار.',
+    icon: '/ServicesIcons/brain 2.png',
+  },
+  {
+    title: 'ورش الـ Prototyping',
+    desc: 'نوفر برامج تدريبية مكثفة تساعد المشاركين على تعلم أساسيات صناعة النماذج الأولية، بداية من التصميم وسلاسل الإمداد وحتى تقنيات التنفيذ والاختبار، بهدف تحويل الفكرة إلى نموذج عملي يمكن تقييمه وتطويره.',
+    icon: '/ServicesIcons/sketching 3.png',
+  },
+  {
+    title: 'معسكرات وورش Ideation',
+    desc: 'نقدم معسكرات وورش تفاعلية تساعد المشاركين على اكتشاف المشكلات الجديرة بالحل، وإجراء أبحاث السوق، وفهم المستخدم، وبناء نماذج العمل، وتطوير مهارات التفكير النقدي والتواصل والعرض.',
+    icon: '/ServicesIcons/note 2.png',
+  },
+  {
+    title: 'برامج تطوير الألعاب الابتكارية',
+    desc: 'نصمم ونقدم برامج تدريبية تستخدم الألعاب كأداة للإبداع والابتكار، حيث يتم تدريب المشاركين على ابتكار ألعاب جديدة، تطوير ألعاب قائمة، وربطها بالتكنولوجيا والواقع المحيط لإنتاج تجارب تعليمية وابتكارية ذكية.',
     icon: '/ServicesIcons/idea (2) 2.png',
   },
   {
-    title: 'برامج ريادة الأعمال',
-    desc: 'توجيه رواد الأعمال من الفكرة إلى نموذج العمل والتمويل.',
+    title: ' استشارات تقييم وتطوير الشركات الناشئة',
+    desc: 'نساعد الشركات الناشئة على تقييم وضعها الحالي، وتحليل فكرتها، وتطوير نموذجها، والتعرف على التقنيات المناسبة، مع تقديم جلسات استشارية موجهة تسهم في تحسين فرص النجاح والاستدامة.',
+    icon: '/ServicesIcons/statistics 2.png',
+  },
+  {
+    title: ' استشارات نماذج الأعمال والابتكار',
+    desc: 'نقدم استشارات متخصصة في نماذج الأعمال والابتكار، بما يشمل نماذج العمل الديناميكية، ونماذج الشركات الناشئة، وأطر تطوير القيمة، لمساعدة الفرق على بناء مشروع واضح ومتماسك من الناحية الاستراتيجية.',
+    icon: '/ServicesIcons/idea 2.png',
+  },
+  {
+    title: 'تدريب إدارة الابتكار',
+    desc: 'نوفر برامج تدريبية في إدارة الابتكار تساعد المشاركين على فهم أدوات الابتكار وآليات تطبيقها داخل المؤسسات والمشروعات، بما يدعم خلق بيئة أكثر قدرة على التطوير واتخاذ القرارات الإبداعية',
+    icon: '/ServicesIcons/memory 2.png',
+  },
+  {
+    title: ' تصميم أدوات وألعاب تعليمية للابتكار',
+    desc: 'نطور أدوات وألعاب تدريبية تساعد على نشر ثقافة الإبداع والابتكار بطريقة تفاعلية، وتستخدم في تنمية مهارات التفكير، تطوير الأفكار، وتحفيز الفرق على التعلم والمشاركة العملية.',
     icon: '/ServicesIcons/electronic-product 2.png',
   },
+  {
+    title: ' المحتوى المعرفي وريادة الأعمال',
+    desc: 'نساهم في نشر المعرفة في مجال ريادة الأعمال والابتكار من خلال محتوى تدريبي ومواد تعليمية وكتب متخصصة تساعد الأفراد والفرق على فهم التحديات وبناء مشاريع أكثر نضجًا ووضوحًا.',
+    icon: '/ServicesIcons/success 2.png',
+  },
+  {
+    title: ' تدريب رفع كفاءة الموظفين',
+    desc: 'نقدم برامج تدريبية متخصصة لرفع كفاءة العاملين في القطاعين الحكومي والخاص عبر تطوير المهارات الإدارية والمهنية والقيادية، بهدف تحسين الأداء وزيادة الإنتاجية ورفع جودة العمل بما يتماشى مع أهداف المؤسسة ومتطلبات التطوير المستمر',
+    icon: '/ServicesIcons/analysis 2.png',
+  },
+
+
 ]
 
 export const softwareServices = [
   {
-    title: 'تطوير الأنظمة ولوحات التحكم',
-    desc: 'أنظمة إدارة داخلية ولوحات تحكم لمتابعة العمليات والمؤشرات في الوقت الفعلي.',
-    icon: '/ServicesIcons/analysis 2.png',
+    title: 'تطوير تطبيقات الموبايل',
+    desc: 'نقوم بتصميم وتطوير تطبيقات موبايل احترافية على Android وiOS  تساعد الشركات ورواد الأعمال على الوصول لعملائهم بسهولة، وتحسين تجربة المستخدم.',
+    icon: '/ServicesIcons/development 2.png',
   },
   {
-    title: 'تطوير تطبيقات الموبايل',
-    desc: 'تطبيقات iOS و Android بأداء عالٍ وتجربة استخدام متناسقة مع علامتك.',
+    title: 'تطوير الأنظمة ولوحات التحكم',
+    desc: 'نطور أنظمة مخصصة ولوحات تحكم تساعدك على إدارة عملياتك اليومية بكفاءة أعلى، مثل أنظمة الإدارة الداخلية، متابعة العملاء، إدارة الطلبات، وإعداد التقارير بما يناسب طبيعة مشروعك.',
+    icon: '/ServicesIcons/data 2.png',
+  },
+  {
+    title: 'تصميم واجهات وتجربة المستخدم UI/UX',
+    desc: 'نصمم واجهات استخدام عصرية وسهلة تضمن تجربة مميزة للمستخدم، مع التركيز على الشكل الاحترافي، سهولة التنقل، وتحقيق أفضل تفاعل ممكن داخل الموقع أو التطبيق.',
+    icon: '/ServicesIcons/wireframe 2.png',
+  },
+  {
+    title: 'تطوير المواقع الإلكترونية',
+    desc: 'نساعدك في إنشاء مواقع إلكترونية احترافية تعبر عن نشاطك التجاري وتدعم أهدافك، سواء كانت مواقع تعريفية للشركات، منصات خدمية، أو مواقع مخصصة لعرض المنتجات والخدمات.',
     icon: '/ServicesIcons/app-development 2.png',
   },
   {
     title: 'التصميم الجرافيكي والهوية البصرية',
-    desc: 'شعارات، أدلة هوية، ومواد تسويقية تعكس احترافية نشاطك.',
-    icon: '/ServicesIcons/development 2.png',
+    desc: 'نقدم خدمات التصميم الجرافيكي والهوية البصرية لمساعدة الشركات على الظهور بشكل احترافي، بداية من تصميم الشعارات والألوان وحتى المواد التسويقية التي تعكس شخصية البراند بشكل واضح ومميز',
+    icon: '/ServicesIcons/abstract-shape 2.png',
   },
   {
-    title: 'تطوير المواقع الإلكترونية',
-    desc: 'مواقع تعريفية وتجارة إلكترونية سريعة وآمنة ومتوافقة مع محركات البحث.',
+    title: 'تطوير المتاجر الإلكترونية',
+    desc: 'نساعد أصحاب المشاريع على إنشاء متاجر إلكترونية متكاملة تتيح عرض المنتجات، إدارة الطلبات، وتسهيل عمليات البيع والدفع أونلاين، بما يساهم في زيادة المبيعات وتوسيع نطاق الوصول للعملاء.',
     icon: '/ServicesIcons/online-shop 2.png',
   },
   {
-    title: 'تصميم واجهات وتجربة المستخدم UI/UX',
-    desc: 'بحث مستخدم، وايرفريم، وتصاميم واجهات سهلة وجذابة.',
-    icon: '/ServicesIcons/wireframe 2.png',
-  },
-  {
-    title: 'تحليل البيانات والأداء',
-    desc: 'لوحات بيانات وتقارير لدعم القرار بناءً على مؤشرات واضحة.',
-    icon: '/ServicesIcons/statistics 2.png',
-  },
-  {
-    title: 'تطوير حلول الذكاء الاصطناعي',
-    desc: 'دمج نماذج ذكاء اصطناعي في منتجاتك لأتمتة المهام وتحسين التجربة.',
-    icon: '/ServicesIcons/memory 2.png',
-  },
-  {
-    title: 'برمجة الأنظمة السحابية',
-    desc: 'بنية سحابية قابلة للتوسع، نشر آمن، ومراقبة مستمرة.',
+    title: 'الصيانة والدعم الفني',
+    desc: 'نوفر خدمات الصيانة والدعم الفني المستمر لضمان استقرار الأنظمة والتطبيقات والمواقع، ومعالجة أي مشكلات تقنية، وتحديث الحلول البرمجية بشكل يضمن أفضل أداء واستمرارية للعمل.',
     icon: '/ServicesIcons/technical-support 2.png',
   },
   {
-    title: 'إدارة المشاريع البرمجية',
-    desc: 'تخطيط، تتبع، وتسليم مشاريع تقنية وفق أفضل الممارسات.',
-    icon: '/ServicesIcons/data 2.png',
-  },
-  {
-    title: 'إنتاج الفيديو والمحتوى المرئي',
-    desc: 'فيديوهات تعريفية وموشن جرافيك لدعم حملاتك الرقمية.',
-    icon: '/ServicesIcons/abstract-shape 2.png',
+    title: ' الاستشارات التقنية وتحليل المشاريع',
+    desc: 'نساعد رواد الأعمال والشركات على تحليل أفكارهم واحتياجاتهم التقنية، واختيار الحلول المناسبة لتحويلها إلى مشاريع قابلة للتنفيذ، مع تقديم رؤية واضحة للمراحل والمتطلبات الفنية.',
+    icon: '/ServicesIcons/consulting 2.png',
   },
 ]
 

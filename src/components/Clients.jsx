@@ -10,12 +10,11 @@ export default function Clients() {
 
   useEffect(() => {
   partners.forEach((src) => {
-    // const img = new Image();
-    // img.src = src;
+
     const img = new Image();
-img.src = src;
-img.loading = "eager";
-  });
+      img.src = src;
+      img.loading = "eager";
+   });
 }, []);
 
   return (
@@ -37,58 +36,23 @@ img.loading = "eager";
           شريك وعميل
         </h2>
 
-        {/* <div className="relative overflow-hidden [mask-image:linear-gradient(to_left,transparent,black_8%,black_92%,transparent)]">
-          <div dir="ltr" className="flex w-max animate-marquee gap-12 md:gap-16">
-            {row.map((name, i) => (
-              <div
-                key={`${name}-${i}`}
-                className="flex h-16 shrink-0 items-center justify-center px-6 transition-all duration-300 md:h-20"
-              >
-                <span
-                  className="whitespace-nowrap text-lg font-bold text-neutral-400 grayscale transition-all duration-300 hover:scale-105 hover:text-white hover:grayscale-0 md:text-xl"
-                  title={name}
-                >
-                  {name}
-                </span>
-              </div>
-            ))}
-          </div>
-        </div> */}
+
 
         <div className="relative overflow-hidden">
   <div dir="ltr" className="flex animate-marquee gap-12 md:gap-16">
     {row.map((logo, i) => (
-//       <div
-//         key={i}
-//         className="flex h-16 shrink-0 items-center justify-center px-6 md:h-20"
-//       >
-//         {/* <img
-//           src={logo}
-//           alt=""
-//           className="h-10 object-contain grayscale opacity-100 transition-all duration-300 hover:scale-105 hover:grayscale-0 hover:opacity-100 md:h-12"
-//           loading="lazy"
-//         /> */}
-//         <img
-//   src={logo}
-//   alt=""
-//   className="h-10 object-contain opacity-90 transition-all duration-300 hover:scale-105 hover:grayscale-0 md:h-12"
-// />
-//       </div>
+
 
 <div
   key={i}
-  className="flex h-16 shrink-0 items-center justify-center px-6 md:h-20"
+  className="flex h-20 shrink-0 items-center justify-center px-6 md:h-24"
 >
-  <div className="bg-white/10 backdrop-blur-sm rounded-xl px-4 py-2">
-    {/* <img
-      src={logo}
-      alt=""
-      className="h-10 object-contain opacity-90 transition-all duration-300 hover:scale-105 md:h-12"
-    /> */}
+  <div className="bg-white/10 backdrop-blur-sm rounded-xl px-4 py-2.5">
+
     <img
   src={logo}
   alt=""
-  className="h-10 object-contain opacity-90"
+  className="h-12 w-auto object-contain opacity-90 md:h-14"
   onError={() => console.log("FAILED:", logo)}
 />
   </div>
