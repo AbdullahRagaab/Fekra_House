@@ -39,27 +39,24 @@ export default function Clients() {
 
 
         <div className="relative overflow-hidden">
-  <div dir="ltr" className="flex animate-marquee gap-12 md:gap-16">
-    {row.map((logo, i) => (
-
-
-<div
-  key={i}
-  className="flex h-20 shrink-0 items-center justify-center px-6 md:h-24"
->
-  <div className="bg-white/10 backdrop-blur-sm rounded-xl px-4 py-2.5">
-
-    <img
-  src={logo}
-  alt=""
-  className="h-12 w-auto object-contain opacity-90 md:h-14"
-  onError={() => console.log("FAILED:", logo)}
-/>
-  </div>
-</div>
-    ))}
-  </div>
-</div>
+          <div dir="ltr" className="flex animate-marquee gap-3 md:gap-4">
+            {row.map((logo, i) => (
+              <div
+                key={i}
+                className="flex h-24 shrink-0 items-center justify-center px-1.5 md:h-32 md:px-2"
+              >
+                <div className="rounded-xl bg-white/10 px-2 py-1.5 backdrop-blur-sm md:px-2.5 md:py-2">
+                  <img
+                    src={logo}
+                    alt=""
+                    className="h-20 w-auto object-contain opacity-90 md:h-24"
+                    onError={() => console.log("FAILED:", logo)}
+                  />
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
 
       </div>
     </section>

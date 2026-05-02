@@ -88,7 +88,7 @@ export default function Contact() {
                 <div className="flex justify-end pt-2">
                   <button
                     type="submit"
-                    className="rounded-xl bg-[#F57167] px-8 py-3.5 text-sm font-bold text-white shadow-md transition-all hover:bg-red-500 hover:shadow-lg"
+                    className="rounded-xl bg-[#F57167] px-8 py-3.5 font-light text-lg text-[#FAFAF7] hover:cursor-pointer shadow-md transition-all hover:bg-red-500 hover:shadow-lg"
                   >
                     {sent ? 'تم الإرسال — شكراً لك' : 'تواصل معنا'}
                   </button>
